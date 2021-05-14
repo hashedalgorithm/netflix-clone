@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import WithProtectedRoute from "./Components/WithProtectedRoute";
-import Navbar from "./Navbar";
+import WithProtectedRoute from "./WithProtectedRoute";
+import Navbar from "./Components/Navbar";
 import axios from "axios";
 import { useMyDispatch } from "./UseStateAndDispatch";
 

@@ -1,10 +1,10 @@
 import React from "react";
 import "./Home.css";
 
-import Input from "./Input";
-import MidSection from "./MidSection";
-import FaqComp from "./FaqComp";
-import Footer from "./Footer";
+import Input from "./Components/Input";
+import MidSection from "./Components/MidSection";
+import FaqComp from "./Components/FaqComp";
+import Footer from "./Components/Footer";
 import { Link } from "react-router-dom";
 function Home() {
   return (

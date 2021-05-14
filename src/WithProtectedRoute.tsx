@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import { useStateAndDispatch } from "../UseStateAndDispatch";
+import { useStateAndDispatch } from "./UseStateAndDispatch";
 import { useHistory } from "react-router-dom";
 
 function WithProtectedRoute<T>(Component: React.ComponentType<T>) {

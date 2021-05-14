@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import accountsvg from "../src/account.svg"
-import { useStateAndDispatch } from "./UseStateAndDispatch";
+import accountsvg from "../Images/account.svg"
+import { useStateAndDispatch } from "../UseStateAndDispatch";
 
 function Navbar() {
   type Navbaritem = {
