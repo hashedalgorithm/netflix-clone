@@ -1,0 +1,94 @@
+.topbar {
+  background-color: transparent;
+  z-index: 1;
+  height: 70px;
+  display: flex;
+  padding: 2em 3em;
+}
+.topbar_logo {
+  width: 400px;
+  height: auto;
+}
+.topbar_buttons {
+  margin-right: 0;
+  margin-left: auto;
+  display: flex;
+  height: 35px;
+  align-content: center;
+}
+.lang {
+  margin-right: 20px;
+  outline: white;
+  color: white;
+  border: 1px solid white;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+}
+.topbar_button_signin {
+  border: none;
+  background-color: red;
+  color: white;
+  font-weight: 500;
+  border-radius: 3px;
+  padding: 10px 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.section1 {
+  height: 720px;
+}
+
+.S1_body_form {
+  display: flex;
+  justify-content: center;
+}
+
+.section1_body {
+  color: white;
+  margin-top: 15vh;
+  text-align: center;
+}
+.section1_bgimg {
+  position: absolute;
+  top: 0;
+  display: fixed;
+  width: 100%;
+  filter: brightness(0.3);
+  z-index: -5;
+}
+.S1_body_btn {
+  width: 300px;
+  height: 68px;
+  cursor: pointer;
+  font-size: 30px;
+  border: none;
+  background-color: red;
+  color: white;
+  margin-top: 25px;
+  margin-left: 20px;
+  padding: 12px 10px;
+}
+/* section2 */
+.FAQ_Component {
+  background-color: black;
+  height: fit-content;
+  border-top: 8px solid rgba(116, 116, 116, 0.384);
+  margin: 0px auto 10px auto !important;
+  padding-bottom: 2em;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.FAQ_Component > h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.Home_footer {
+  border-top: 8px solid rgba(116, 116, 116, 0.384);
+  background-color: black;
+  margin-top: -10px;
+  color: grey;
+  padding-bottom: 50px;
+}

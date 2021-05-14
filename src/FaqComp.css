@@ -1,0 +1,32 @@
+.Faq_Comp{
+    margin: 0px auto;
+    width: 800px;
+    
+}
+.FC_head{
+    background-color: #303030;
+    width: inherit;
+    font-size: 1.2rem;
+    cursor: pointer;
+    height: 50px;
+    border-bottom: 1px solid black;
+    padding: 0.5em 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.FC_content{
+    height: fit-content;
+    font-size: 1.1rem;
+    width: inherit;
+    display: block;
+    transition: 0.2s ease-in-out;
+    background-color: #303030;
+    padding: 1em 1.1em;
+    margin: 0px auto 10px auto ;
+}
+
+.FC_closebtn{
+    cursor: pointer;
+}

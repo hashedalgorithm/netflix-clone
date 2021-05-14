@@ -1,0 +1,26 @@
+.Footer_s1 {
+  display: flex;
+  flex-direction: row;
+  margin: 5px auto;
+  color: grey;
+  justify-content: space-evenly;
+}
+.footerlist > li {
+  list-style: none;
+  padding: 5px;
+}
+.footerlist > li:hover {
+  text-decoration: underline;
+}
+.Footer_phone{
+    margin-top: 2em;
+    margin-left: 12em;
+}
+p > a , li > a{
+  color: grey;
+  text-decoration: none;
+}
+.Footer_lang{
+    margin-left: 16em;
+    font-size: 0.75rem;
+}
